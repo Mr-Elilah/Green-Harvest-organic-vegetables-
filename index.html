@@ -21,7 +21,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    
+
     <script type="module" crossorigin src="/green-harvest-organic-vegetables/index.js"></script>
     <link rel="stylesheet" crossorigin href="/green-harvest-organic-vegetables/assets/index-idJR-T0t.css">
   </head>
@@ -54,14 +54,14 @@
                     </li>
                 </ul>
             </nav>
-            <button class="mobile-menu-btn" type="button">
+            <button class="mobile-menu-btn" type="button" data-menu-open>
                 <svg class="mobile-menu-svg" width="" height="">
                     <use href="../img/icon-sprite.svg#icon-menu"></use>
                 </svg>
         </div>
-        <div class="shop-window">
+        <div class="shop-window" data-menu>
             <div class="shop">
-                <button class="shop-close-btn" type="button">
+                <button class="shop-close-btn" type="button" data-menu-close>
                     <svg class="shop-close-icon" width="" height="">
                         <use href="../img/icon-sprite.svg#icon-close-x"></use>
                     </svg>
@@ -479,6 +479,6 @@
     </main>
 
     
-
+    <script src="./js/menu.js"></script>
   </body>
 </html>
